@@ -1,0 +1,139 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: o;
+}
+/* header-content */
+
+.header{
+    background-image: url(../images/banner/banner2.png);
+    width: 1200px;
+
+    background-repeat:no-repeat ;
+}
+.header-banner{ 
+    justify-content:right;
+    padding: 100px 120px;
+    
+    
+}
+.header-title{
+        color: #151414;
+        font-size: 45px;
+        font-weight: 700;
+        width: 425px;
+        height: 200px;
+        text-align: right;
+        margin-bottom: 5px;
+ }
+
+ .header-content{
+    color:#444343 ;
+    font-size: 16px;
+    font-weight: 400;
+    width: 420px;
+    height: 80px;
+    text-align: right;
+    margin-top: 5px;
+ }
+ .btn-contact{
+    color: white;
+    border-radius: 5px;
+    background: #F15B22;
+    padding: 15px 20px;
+    font-size: 18px;
+    border-color: white;
+   margin: 5px 280px;
+    
+ }
+
+ /* main-content */
+ 
+
+.main-banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 10px;
+    padding: 30px 20px;
+}
+
+ .main-title{
+    color:#151414;
+    font-size: 40px;
+    font-weight: 700;
+    width: 288px;
+ }
+.main-content{
+    color:#444343;
+    font-size: 16px;
+    font-weight: 400;
+    width: 370px;
+    height: 100px;
+}
+.main-second-content{
+    padding: 0px 300px;
+}
+
+
+.main-list{
+    color:#444343;
+    font-size: 16px;
+    font-weight: 400;
+    list-style-type: none;
+    
+}
+
+.main-list li:before{
+    content: "✔";
+    margin-right: 8px;
+    color: green;
+}
+.main-img{
+    background-image: url(../images/gradient2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover; 
+    border-radius: 50%; 
+}
+
+.section-table{
+    background-color:#e0c9c9;
+    margin: 10px 20px;
+    padding: 10px 80px;
+}
+   
+.section-second-header{
+    color:#151414;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+.section-icon{
+    display: flex;
+    gap:180px;
+    padding: 20px 20px;
+}
+.icon-header{
+    color:#151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.icon-contentI{
+    color: #737272;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+.icon-img{
+    width: 90px;
+    
+}
+.last-section{
+    background-image: url(../images/gradient2.png);
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+}
